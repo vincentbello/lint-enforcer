@@ -1,5 +1,6 @@
 To use the lint enforcer pre-commit git hook:
 - To install the hook, run this command once inside your repository:
+
 <code>curl https://raw.githubusercontent.com/vincentbello/lint-enforcer/master/pre-push -o ".git/hooks/pre-push"</code>
 - Move the <code>pre-commit</code> script to <code>.git/hooks/</code> in your repository
     - To open the folder, use command <code>open .git/hooks</code>
